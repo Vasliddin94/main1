@@ -613,7 +613,7 @@
     #footer{
       width: 576px;
       padding-top: 104px;
-      height: 950px;
+      height: 1200px;
       text-align: center;
     }
 
@@ -623,6 +623,8 @@
       grid-row-gap: 32px;
       text-align: center;
       align-items: center;
+      transform: scale(1.2);
+      margin-top: 104px;
     }
 
 
@@ -631,7 +633,7 @@
     }
 
     .footer-last{
-      margin-top: 44px;
+      margin-top: 150px;
     }
 
     .row4 input{

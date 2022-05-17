@@ -119,7 +119,6 @@
 
   #header{
     width: 576px;
-    background-color: red;
     }
 
   #header .row{
@@ -157,10 +156,17 @@
       display: grid;
       grid-template-columns: 1fr;
       align-items: center;
+      text-align:center;
+      justify-items: center;
     }
 
     .section-one-img{
       grid-row: 1/2;
+    }
+
+    .section-one-img img{
+      width: 100%
+
     }
 
     .section-one-text h1{
@@ -169,6 +175,7 @@
       font-weight: 700;
       color:#22343D;
       text-align: center;
+      width: 100%;
     }
 
     .section-one-text p{
@@ -177,6 +184,34 @@
       font-weight: 400;
       color:#22343D;
       margin-top: 16px;
+      text-align: center;
+      width: 100%;
+    }
+
+    #getstart{
+      padding: 15px 41px 14px 41px;
+      background-color: #02897A;
+      color: #ffffff;
+      border-radius: 4px;
+      font-size: 16px;
+      line-height: 28px;
+      font-weight: 700;
+      margin-right: 20px;
+      margin-left: 70px;
+      position: relative;
+      border: none;
+      text-align: center;
+    }
+
+      .section-one-text{
+        align-items: center;
+        text-align: center;
+      }
+
+
+
+    .section-one-text ul{
+      text-align: center;
     }
 
 
@@ -188,10 +223,9 @@
       display: grid;
       height: 1100px;
       margin-top: 115.11px;
-      background-color: khaki;
-      background: url(../img/bg.png)  khaki ;
+      background: url(../img/bg.png);
       background-repeat: no-repeat;
-      background-position: 0% 100%;
+      background-position: 50% 100%;
     }
 
     .section-two-list{
@@ -214,6 +248,7 @@
       display: grid;
       grid-template-columns: 1fr;
       grid-row-gap: 0px;
+      grid-column-gap: 0px;
     }
 
     .box2{
@@ -283,7 +318,11 @@
       width: 576px;
       margin-top: 80px;
       height: 900px;
+      background-image: url(../img/bg1.png);
+      background-repeat: no-repeat;
+      background-position: 50% 0%;
     }
+
 
     .experts{
       display: grid;
@@ -358,6 +397,11 @@
       display: grid;
       grid-template-columns: 1fr;
       grid-row-gap: 32px;
+      width: 100%;
+    }
+
+    .clients > div {
+      width: 100%;
     }
 
 
@@ -406,6 +450,13 @@
       display: grid;
       grid-template-columns: 1fr;
       grid-row-gap: 32px;
+      text-align: center;
+      align-items: center;
+    }
+
+
+    .row1{
+      text-align:center;
     }
 
     .footer-last{

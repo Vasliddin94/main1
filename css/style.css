@@ -13,7 +13,6 @@
   justify-items: center;
   width: 1400px;
   height: 80px;
-  background-color:aqua;
 }
 
 .left h1{
@@ -76,7 +75,6 @@
   width: 1400px;
   padding-top: 25px;
   height: 555.72px;
-  background-color: grey;
 }
 
 .sec-one{
@@ -109,6 +107,8 @@
   align-items: center;
 }
 
+
+
 #getstart{
   padding: 15px 41px 14px 41px;
   background-color: #02897A;
@@ -119,6 +119,7 @@
   font-weight: 700;
   margin-right: 54px;
   border: none;
+  position: relative;
 }
 
 .section-one-text li:nth-child(2) a{
@@ -142,8 +143,7 @@
   width: 1400px;
   height: 543px;
   margin-top: 114.11px;
-  background-color: khaki;
-  background: url(../img/bg.png)  khaki ;
+  background: url(../img/bg.png);
   background-repeat: no-repeat;
   background-position: 0% 100%;
 }
@@ -186,6 +186,7 @@
 .section-two-button {
   text-align:center;
   margin-top: 60px;
+  width: 100%;
 }
 
 #signup{
@@ -201,7 +202,6 @@
 /* section-three */
 
 #section-three{
-  background-color: darkolivegreen;
   width: 1400px;
 }
 
@@ -214,13 +214,8 @@
 
 .boxes > div{
   height: 500px;
-  background-color: aqua;
   display:grid;
   align-items: center;
-}
-
-.boxes > div:nth-child(2n+1){
-  background-color:coral;
 }
 
 .boxes h3{
@@ -314,7 +309,6 @@
 
 .box5 h1{
   margin-bottom: 23px;
-  background-color: red;
 }
 
 .box5 p:nth-child(3){
@@ -340,7 +334,6 @@
   margin-top: 150px;
   padding-top: 52px;
   height: 671.54px;
-  background-color: orchid;
   text-align: center;
   background-image: url(../img/bg1.png);
   background-repeat: no-repeat;
@@ -402,8 +395,6 @@
   margin-top: 150px;
   width: 1400px;
   height: 575px;
-  background-color: cyan;
-
 }
 
 #section-five h1{
@@ -500,7 +491,6 @@
 
 #section-six{
   width: 1400px;
-  background-color:;
   height: 589px;
   margin-top: 150px;
 }
@@ -633,7 +623,6 @@
 #section-seven{
   width: 1400px;
   height: 414px;
-  background-color: lightgrey;
   margin-top: 150px;
 }
 
@@ -757,7 +746,6 @@
   width: 1400px;
   height: 292px;
   margin-top: 150px;
-  background-color: lavender
 }
 
 .rows{
@@ -775,7 +763,7 @@
   line-height: 28px;
   font-weight: 700;
   color: #173A56;
-  margin: 0px 0px 0px 16px;
+  margin-left: 16px
 }
 
 .row1 ul{
@@ -786,6 +774,12 @@
 
 .row1 ul li{
   margin-right: 16px
+}
+
+.row1{
+  display: grid;
+  align-items:center;
+  justify-content: center;
 }
 
 .rows h2{

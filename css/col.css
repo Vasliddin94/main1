@@ -149,6 +149,7 @@
   }
   /* section-one */
     #section-one{
+      width: 576px
       height: 950px;
       text-align: center;
     }
@@ -183,6 +184,7 @@
 
 
     #section-two{
+      width: 576px;
       display: grid;
       height: 1100px;
       margin-top: 115.11px;
@@ -204,6 +206,7 @@
     /* section-three */
 
     #section-three{
+      width: 576px;
       height: 3600px;
     }
 
@@ -277,6 +280,7 @@
 
     /* section-four */
     #section-four{
+      width: 576px;
       margin-top: 80px;
       height: 900px;
     }
@@ -293,6 +297,7 @@
 
     /* section-five */
     #section-five{
+      width: 576px;
       height: 1550px;
     }
 
@@ -325,6 +330,7 @@
     /* section-six */
 
     #section-six{
+      width: 576px;
       margin-top: 61px;
       height: 1500px;
     }
@@ -343,6 +349,7 @@
     /* section-seven */
 
     #section-seven{
+      width: 576px;
       height: 940px;
       margin-top: 100px;
     }
@@ -358,6 +365,7 @@
     /* section-eight */
 
     #section-eight{
+      width: 576px;
       height: 470px;
     }
 
@@ -388,6 +396,7 @@
     /* footer */
 
     #footer{
+      width: 576px;
       padding-top: 104px;
       height: 950px;
       text-align: center;
